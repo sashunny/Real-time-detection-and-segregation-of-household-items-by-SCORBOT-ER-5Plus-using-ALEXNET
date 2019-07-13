@@ -1,0 +1,11 @@
+This folder contains the matlab code for moving and testing the followong joints:
+   1. base
+   2. shoulder
+   3. elbow
+   4. pitch right
+   5. pitch left
+The gripper cannot be moved using this code. The speed of these joint motors can be controlled by changing the duty cycle in the 
+anticlockwise and clockwise functions. However, the speed of pitch_left (and also for the gripper) motor cannot be controlled due 
+to wanting of PWM pins in the arduino board.
+
+Run the chk.m, the main code. It will call the necessary functions. 
